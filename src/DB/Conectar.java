@@ -247,6 +247,7 @@ public class Conectar {
     
     public ArrayList listar_views(String sql){
         try {
+            
             ArrayList <String[]> result = new ArrayList<String[]>();
             at = connection.createStatement();
             rt = at.executeQuery(sql);
